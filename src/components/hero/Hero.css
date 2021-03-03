@@ -31,6 +31,15 @@ video {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+.buttons > span a {
+  text-decoration: none;
+  margin-top: 8px;
+  color: #f2eeb6;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+}
 
 .buttons {
   display: flex;

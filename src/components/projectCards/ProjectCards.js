@@ -31,19 +31,19 @@ function ProjectCards() {
           </Card.Footer> */}
         </Card>
         <Card href="/wayfarer">
+          <Card.Img variant="top" src="/images/wayfarer.png" />
+          <Card.Body>
+            <Card.Title>Wayfarer</Card.Title>
+            <Card.Text>
+              Travel blog using Django Teplating, PostgreSQL and Python
+            </Card.Text>
+          </Card.Body>
           <a href="/wayfarer">
-            <Card.Img variant="top" src="/images/wayfarer.png" />
-            <Card.Body>
-              <Card.Title>Wayfarer</Card.Title>
-              <Card.Text>
-                Travel blog using Django Teplating, PostgreSQL and Python
-              </Card.Text>
-            </Card.Body>
             <button class="btn card_btn">Read More</button>
-            {/* <Card.Footer>
+          </a>
+          {/* <Card.Footer>
             <small className="text-muted">Group Collaboration</small>
         </Card.Footer> */}
-          </a>
         </Card>
         <Card>
           <Card.Img variant="top" src="/images/apptrack.png" />
