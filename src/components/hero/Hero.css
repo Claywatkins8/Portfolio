@@ -34,7 +34,7 @@ video {
 .buttons > span a {
   text-decoration: none;
   margin-top: 8px;
-  color: #f2eeb6;
+  color: #fff;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -69,4 +69,13 @@ video {
     display: block;
     text-decoration: none;
   }
+}
+
+.divider {
+  height: 1px;
+  width: 30%;
+  display: block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
 }

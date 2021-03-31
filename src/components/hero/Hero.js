@@ -9,6 +9,7 @@ function Hero() {
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>Hi, I'm Clayton</h1>
       <p>A Seattle-based Full Stack Developer</p>
+      <hr className="divider"></hr>
 
       <div className="buttons">
         <span>
